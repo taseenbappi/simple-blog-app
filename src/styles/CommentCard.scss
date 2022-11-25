@@ -1,0 +1,18 @@
+.comment-card {
+    .comment-author {
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 41px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #231F20;
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+.post-card {
+
+    border: 1px solid red !important;
+    border-radius: 10px !important;
+    padding: 20px;
+
+    .link-style {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 50px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #231F20;
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            font-size: 22px;
+            line-height: 33px;
+        }
+    }
+
+}

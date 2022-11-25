@@ -1,0 +1,32 @@
+.post-details-container {
+    .post-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 50px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #231F20;
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            font-size: 22px;
+            line-height: 33px;
+        }
+    }
+
+    .comment-header-txt {
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 62px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #231F20;
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            font-size: 28px;
+            line-height: 42px;
+        }
+    }
+}
